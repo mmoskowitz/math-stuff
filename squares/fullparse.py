@@ -112,7 +112,7 @@ def get_color(x,y,cat):
     if (code in mode_dict[mode]):
         return mode_dict[mode][code]
     elif (x % 100 == 0 or y % 100 == 0):
-        return "0 1 1"
+        return "1 2 1"
     elif (x % 10 == 0 or y % 10 == 0):
         return "1 2 2"
     else:
